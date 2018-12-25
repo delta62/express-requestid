@@ -1,0 +1,22 @@
+{
+  "name": "@noedel/express-requestid",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Sam Noedel <sam.noedel@gmail.com>",
+  "license": "MIT`",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/uuid": "^3.4.4",
+    "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
